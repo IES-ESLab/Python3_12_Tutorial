@@ -1,0 +1,8 @@
+python==3.12.*
+numpy
+pandas
+matplotlib
+obspy
+ipykernel
+jupyter
+h5py
