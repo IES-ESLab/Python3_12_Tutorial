@@ -33,8 +33,8 @@ We use **Ipykernel (`#%%` cells in VS Code)** and **Jupyter Notebook** to demons
 
 ---
 
-### `04_moveout.py`
-- An example of using **ObsPy** to process `.sac` files and plot a **moveout diagram** for a given seismic event.
+### `04_record_section.py`
+- An example of using **ObsPy** to process `.sac` files and plot a **record section** for a given seismic event.
 
 ---
 
