@@ -2,8 +2,8 @@
 # --------------------------
 # ValueError
 # --------------------------
-
-int_value = int("abc")  # invalid literal
+my_value = "abc"
+int_value = int(my_value)  # invalid literal
 
 
 #%%
@@ -12,14 +12,18 @@ int_value = int("abc")  # invalid literal
 # --------------------------
 
 my_dict = {"name": "quake"}
-print(my_dict["magnitude"])
+search_key = "magnitude"
+print(my_dict[search_key])
 
 
 #%%
 # --------------------------
 # TypeError
 # --------------------------
-result = "5" + 3  # cannot add str and int
+a = "5"
+b = 3
+
+result = a + b  # cannot add str and int
 
 
 #%%
@@ -27,7 +31,9 @@ result = "5" + 3  # cannot add str and int
 # IndexError
 # --------------------------
 arr = [10, 20]
-print(arr[3])
+
+for i in range(3):
+    print(arr[i])   
 
 
 #%%
